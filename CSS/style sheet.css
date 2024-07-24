@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+    direction: rtl;
+    font-family: "Cairo", sans-serif;
+}
+a{
+  text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.carousel-item img{
+    height: 100vh;
+   opacity: 0.6;
+}
+.carousel-caption {
+    background-color: rgba(5, 5, 20, 0.5);
+    border-radius: 10px;
+    padding: 50px;
+} 
+.carousel-indicators button{
+   width: 10px !important;
+   height: 10px !important;
+   border-radius: 50% !important;
+
+}
+.carousel-indicators{
+    padding-bottom: 10px;
+}
+.container .title{
+    width: 120px !important;
+    border-width: 4px !important;
+}
+.title{
+    width: 120px !important;
+    border-width: 4px !important;
+}
+.back{
+    background: url(https://img.freepik.com/free-photo/blue-oil-paint-textured-background_53876-102039.jpg?t=st=1721804604~exp=1721808204~hmac=472e0432a35923585f30359140def4f523a8d18489bffae2d15f6fb44e8ee19d&w=360);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.title2{
+    border-width: 4px !important;
+    
+}
+.navbar-toggler{
+    color: blue;
+}
